@@ -1,0 +1,25 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  border: solid 2px;
+  margin: 1rem;
+  min-width: 15rem;
+  min-height: 10rem;
+}
+
+.card-content {
+  display: flex;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: #e6e6e6;
+}
+
+.card-footer {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  font-size: 1rem;
+}
